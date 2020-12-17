@@ -1,0 +1,20 @@
+.side-bar {
+  width: 50%;
+  height: 100vh;
+  background-color: #131528;
+  color: #fff;
+  margin-left: -50%;
+  position: fixed;
+
+  &--active {
+    margin-left: 0;
+  }
+
+  &__hamburger {
+    position: absolute;
+    right: -20px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+  }
+}
