@@ -1,20 +1,18 @@
-import {
-  Switch,
-  Route,
-} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
+import { IssuesList } from './IssuesList';
 import './content.scss';
 
 export const Content = () => {
   return (
     <Switch>
       <Route exact path="/">
-        <p>All</p>
+        <IssuesList></IssuesList>
       </Route>
       <Route path="/opened">
-        <p>Opened</p>
+        <IssuesList></IssuesList>
       </Route>
       <Route path="/closed">
-        <p>Closed</p>
+        <IssuesList></IssuesList>
       </Route>
     </Switch>
   )
