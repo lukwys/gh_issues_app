@@ -1,6 +1,6 @@
 .side-bar {
   width: 50%;
-  height: 100vh;
+  height: 100%;
   background-color: #131528;
   color: #fff;
   margin-left: -50%;
@@ -25,6 +25,7 @@
 
 @media (min-width: 768px){
   .side-bar {
+    height: initial;
     width: 25%;
     margin-left: 0;
     position: relative;
